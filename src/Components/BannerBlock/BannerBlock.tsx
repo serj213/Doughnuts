@@ -9,15 +9,17 @@ import bannerImg from '../../assets/images/banner/bg.png';
 const BannerBlock: React.FC = () => {
   return (
     <section className={s.banner}>
-      <img src="" alt="" />
+      <img className={s.banner__bg} src={bannerImg} alt="" />
       <Container>
         <div className={s.banner__inner}>
           <div className={s.banner__content}>
-            <h1 className={s.banner__title}>Find your favorite donut!</h1>
+            <h1 className={s.banner__title}>
+              Find your favorite <span>donut</span>!
+            </h1>
 
             <p className={s.banner__subtitle}>Our bakery offers various options of donuts</p>
 
-            <button></button>
+            <button className={s.btnBig}>CHOOSE DONUTS</button>
           </div>
         </div>
       </Container>

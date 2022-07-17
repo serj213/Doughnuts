@@ -9,7 +9,9 @@ const App: React.FC = () => {
   return (
     <div className={s.wrapper}>
       <Header />
-      <BannerBlock />
+      <main className={s.main}>
+        <BannerBlock />
+      </main>
     </div>
   );
 };

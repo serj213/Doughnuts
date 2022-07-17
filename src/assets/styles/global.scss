@@ -7,9 +7,28 @@ body {
     color: $black;
 }
 
-.btn {
+.btnBig {
     display: inline-block;
     background-color: $pink;
     box-shadow: 4px 4px 10px rgba(125, 116, 160, 0.35);
     border-radius: 25px;
+    height: 70px;
+    font-size: 24px;
+    line-height: calc(29 / 24 * 100%);
+    color: $white;
+    font-weight: 600;
+    padding: 0 50px;
+}
+
+.btnSmall {
+    display: inline-block;
+    background-color: $pink;
+    box-shadow: 4px 4px 10px rgba(125, 116, 160, 0.35);
+    border-radius: 25px;
+    height: 55px;
+    font-size: 24px;
+    line-height: calc(29 / 24 * 100%);
+    color: $white;
+    font-weight: 600;
+    padding: 0 35px;
 }

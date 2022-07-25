@@ -1,0 +1,35 @@
+@import "../../assets/styles/vars.scss";
+
+.team {
+    padding: 38px 0 150px;
+
+    &__column {
+        &:nth-child(1) {
+            flex: 0 0 calc(440 / 1300 * 100%);
+            padding-top: 72px;
+        }
+        &:nth-child(2) {
+            flex: 0 0 calc(738 / 1300 * 100%);
+        }
+    }
+
+    &__title {
+        margin-bottom: 40px;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: calc(43 / 36 * 100%);
+        color: $black;
+    }
+
+    &__texts {
+        margin-bottom: 40px;
+        p {
+            font-size: 24px;
+            line-height: calc(28 / 24 * 100%);
+            color: $black;
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

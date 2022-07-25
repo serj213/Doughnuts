@@ -1,0 +1,28 @@
+@import "../../../assets//styles/vars.scss";
+
+.buttonDotter {
+    position: relative;
+    padding-right: 30px;
+    display: inline-block;
+    img {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+        right: 0;
+        top: 2px;
+    }
+    span {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: calc(28 / 24 * 100%);
+        color: $black;
+        text-transform: uppercase;
+        transition: opacity 0.2s linear;
+        @media (any-hover: hover) {
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+}
